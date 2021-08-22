@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-brand">Fun With Triangles</div>
+        
+        <ul class="list-non-bullet nav-pills">
+            
+                <a class="link" href="./index.html">Triangle Checker</a>
+            
+                <a class="link  link-active" href="/">Triangle Quiz</a>
+            
+                <a class="link" href="./hypotenuse.html">Hypotenuse Finder</a>
+            
+                <a class="link" href="./area.html">Area Finder</a>
+            
+        </ul>
+    </nav>
+    <hr class="heading">
+        <div class="container">
+    <h1>Lets See If You Can Answer Some Questions</h1>
+    <form class="quiz-form">
+    <div class="question-container">
+        <p class="question">If a triangle has one angle 90 degree, what is it called?</p>
+        <label class="dimensions">
+            <input type="radio" name="question1" value="acute triangle">acute triangle
+        </label>
+        <label class="dimensions">
+            <input  type="radio" name="question1" value="obtuse triangle">obtuse triangle
+        </label>
+        <label class="dimensions">
+            <input type="radio" name="question1" value="right angled triangle">right angled triangle
+        </label>
+    </div>
+    <div class="question-container">
+        <p class="question">What is the third angle for the triangle where angle1 is 45 degree and angle2 is also 45 degrees.</p>
+        <label class="dimensions">
+            <input type="radio" name="question2" value="45 degree">45 degree
+        </label>
+        <label class="dimensions">
+            <input type="radio" name="question2" value="60 degree">60 degree
+        </label>
+        <label class="dimensions">
+            <input type="radio" name="question2" value="90 degree">90 degree
+        </label>
+    </div>
+    </form>
+    <button id="score-button">View Score</button>
+    <div id="output"></div>
+    </div>
+    <script src="./quiz.js"></script>
+</body>
+</html>
