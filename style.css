@@ -6,12 +6,12 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0rem;
+    margin: 5rem;
     background-color: var(--primary-color);
     background-image: url("tri.jpg");
-    background-size: cover;
+    background-size: 84%;
     background-position: center;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
 }
 
 .link{
@@ -21,10 +21,11 @@ body{
 
 .navigation{
     /* background-color: var(--primary-color); */
-    color: white;
-    padding: 1rem;
+    color: #f1a820;
+    padding: .5rem;
     border-bottom-left-radius: 1rem;
     margin-bottom: 2rem;
+    font-weight: 600;
 }
 
 .navigation .nav-brand{
@@ -33,7 +34,7 @@ body{
 }
 
 .navigation .link{
-    color: white;
+    color: #f1a820
 }
 
 .navigation .nav-pills{
@@ -55,7 +56,7 @@ body{
 }
 
 h1{
-    color: wheat;
+    color: #f1a820
 }
 
 .input-angle{
@@ -64,7 +65,7 @@ h1{
 }
 
 #check-button{
-    background-color: wheat;
+    background-color: #f1a820
     border-radius: 00.3rem;
     border-color: lightblue;
     display: block;
@@ -96,7 +97,7 @@ h1{
 }
 
 #calculate-button{
-    background-color: wheat;
+    background-color: #f1a820
     border-radius: 00.3rem;
     border-color: lightblue;
     display: block;
@@ -123,7 +124,7 @@ h1{
 }
 
 #score-button{
-    background-color: wheat;
+    background-color: #f1a820
     border-radius: 00.3rem;
     border-color: lightblue;
     display: block;
