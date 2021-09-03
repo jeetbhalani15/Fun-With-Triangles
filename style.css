@@ -65,7 +65,7 @@ h1{
 }
 
 #check-button{
-    background-color: #f1a820
+    background-color: #f1a820;
     border-radius: 00.3rem;
     border-color: lightblue;
     display: block;
@@ -97,7 +97,7 @@ h1{
 }
 
 #calculate-button{
-    background-color: #f1a820
+    background-color: #f1a820;
     border-radius: 00.3rem;
     border-color: lightblue;
     display: block;
@@ -124,7 +124,7 @@ h1{
 }
 
 #score-button{
-    background-color: #f1a820
+    background-color: #f1a820;
     border-radius: 00.3rem;
     border-color: lightblue;
     display: block;
